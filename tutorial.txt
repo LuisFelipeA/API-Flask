@@ -1,0 +1,31 @@
+Instalar python
+    https://www.python.org/downloads/
+
+Instalar flask
+    pip install flask
+
+Rodar app
+    python app.py
+
+Chamar pelo Postman
+    Listar todos
+        Get
+        http://127.0.0.1:5000/usuarios
+    
+    Criar
+        Post
+        http://127.0.0.1:5000/usuario
+        {"nome": "Felipe", "email": "felipe@email.com"}
+
+    Editar
+        Put
+        http://127.0.0.1:5000/usuario/2
+        {"nome": "Luis Felipe", "email": "luisfelipe@email.com"}
+    
+    Buscar por id
+        Get
+        http://127.0.0.1:5000/usuarios/2
+    
+    Apagar
+        Delete
+        http://127.0.0.1:5000/usuarios/2
